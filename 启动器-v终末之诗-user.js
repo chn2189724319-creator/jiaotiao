@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启动器（新）v终末之诗
 // @namespace    http://tampermonkey.local/
-// @version      1.0.2
+// @version      1.0.1
 // @description  联网自动更新启动器
 // @author       匿名
 // @match        *://xgxt.huhst.edu.cn/*
@@ -17,7 +17,7 @@
 
   // === 防止重复注入 ===
   if (window.editModeLoaderInjected) {
-    console.log('[loader] 脚本已注入cs，跳过重复执行');
+    console.log('[loader] 脚本已注入，跳过重复执行');
     return;
   }
   window.editModeLoaderInjected = true;
