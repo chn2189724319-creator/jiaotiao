@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         编辑模式启动器 v终末之诗（IOS 版）
+// @name         启动器（新）v终末之诗
 // @namespace    http://tampermonkey.local/
 // @version      1.0.0
-// @description  联网自动更新启动器（WebCrypto AES-GCM + Brotli 解密，兼容新加密格式）
-// @author       陈浩南
+// @description  联网自动更新启动器
+// @author       匿名
 // @match        *://xgxt.huhst.edu.cn/*
 // @include      file:///*
 // @run-at       document-start
